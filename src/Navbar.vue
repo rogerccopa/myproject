@@ -1,5 +1,6 @@
 <template>
     <nav>
+        <h2>Menu</h2>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -18,3 +19,18 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+nav{
+    text-align: center;
+}
+nav ul{
+    padding:0;
+}
+nav li{
+    background: wheat;
+    display: inline-block;
+    list-style-type: none;
+    margin:3;
+}
+</style>
